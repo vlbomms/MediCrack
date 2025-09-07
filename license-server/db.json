@@ -1,0 +1,19 @@
+{
+  "licenses": [
+    {
+      "key": "TEST1234",
+      "active": true,
+      "createdAt": "2025-09-06T19:22:24.701Z"
+    },
+    {
+      "key": "USER1-1234",
+      "active": true,
+      "createdAt": "2025-09-06T21:18:02.653Z"
+    },
+    {
+      "key": "USER2-5678",
+      "active": true,
+      "createdAt": "2025-09-06T21:18:02.688Z"
+    }
+  ]
+}

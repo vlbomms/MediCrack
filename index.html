@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%;">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <style>
+        .login-container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            background-color: #f8f9fa;
+        }
+        .error-message {
+            color: #dc3545;
+            margin-top: 10px;
+            display: none;
+        }
+    </style>
+</head>
+
+<body class="d-flex align-items-center" style="height: 100%; background-color: #f5f5f5;">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8 col-lg-6">
+                <div class="login-container text-center">
+                    <img src="./quail.svg" alt="Quail Logo" style="width: 120px; margin-bottom: 20px;">
+                    <h2 class="mb-4">Welcome to Quail</h2>
+                    <p class="text-muted mb-4">Please enter your license key to continue</p>
+                    
+                    <div class="form-group">
+                        <input type="text" class="form-control form-control-lg" id="licenseKey" 
+                               placeholder="Enter your license key" required>
+                    </div>
+                    
+                    <div class="error-message" id="errorMessage">
+                        Invalid license key. Please try again.
+                    </div>
+                    
+                    <button id="loginBtn" class="btn btn-primary btn-block btn-lg mt-3">
+                        <span id="loginBtnText">Login</span>
+                        <span id="loginSpinner" class="spinner-border spinner-border-sm d-none" role="status" aria-hidden="true"></span>
+                    </button>
+                    
+                    <p class="text-muted mt-3 small">
+                        Don't have a license? Contact support for assistance.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

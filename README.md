@@ -1,5 +1,5 @@
 # MediCrack – Offline Question Bank Browser
-*A lightweight, high-performance exam practice platform built with Electron (used to be Flutter).*
+*A lightweight, high-performance exam practice platform built with Electron (used to be Flutter). Intended to be utilized as the OS of Medcelerates moving forward.*
 
 MediCrack is a modern desktop question-bank system that loads **local HTML question banks**, supports **timed and untimed exams**, saves **progress + analytics**, enables **rich review (flags, highlights)**, and uses a tiny **Node.js license server** for activation.
 
